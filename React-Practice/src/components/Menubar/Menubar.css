@@ -1,0 +1,15 @@
+.navi{
+     text-decoration: none;
+     color: navy;
+    
+     }
+    
+     .navi:focus {
+        color: orangered;
+        text-decoration: none;
+      }
+      .navi:hover{
+        color: orangered;
+        text-decoration: none;
+      }
+      

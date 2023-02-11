@@ -1,0 +1,338 @@
+
+
+/* .maindiv{
+    /* background-size:contain;
+    background-attachment: fixed;
+    width: 100%;
+    background-image: url('../../Images/megacabs_-_home.png');
+    /* padding: 0px 15px; */
+    /* height: 90.8vh; */
+    /* height: 100%;
+    padding: 24.1px 13px; 
+}*/
+
+@media (orientation: landscape) {
+    .maindiv {
+      background: rgba(0,0,0,0.42);
+      /* margin : 62px 44px -44px 44px; */
+      /* padding-bottom:25px; */
+      /* width:100px; */
+      /* height: calc(100vh - 106px); */
+      min-height: calc(100vh - 131px)!important;
+      /* border-radius: 15px; */
+      padding-bottom: 48px;
+      background-image:url('../../Images/megacabs_-_home.png');
+      background-size: 100% 100%;
+      background-repeat:none !important;
+    }
+  }
+
+  @media (orientation: portrait) {
+    .maindiv {
+      background: rgba(0,0,0,0.42);
+      /* margin : 62px 44px -44px 44px; */
+      /* padding-bottom:25px; */
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      /* position: fixed; */
+      flex:1 1 auto; 
+      /* border-radius: 15px; */
+      width: calc(100vw - 88px)!important;
+      /* height: calc(100vh - 144px)!important; */
+      min-height: calc(100vh - 144px)!important;
+      padding-bottom: 48px;
+      background-image:url('../../Images/megacabs_-_home.png');
+      background-size: 100% 100%;
+      background-repeat:none !important;
+    }
+  }
+
+
+.side_div{
+    border-radius: 25px;
+    background-color:rgba(255, 255, 255,0.5);
+    margin-top: 12px;
+    padding: 0px;
+}
+
+
+
+.car-image {
+    height: 3rem;
+    width: 10rem;
+}
+
+.card {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    padding: 15px;
+    /* margin: 20px; */
+
+}
+
+.book-card {
+    box-shadow: 0px 5px 10px #00000029;
+    border-radius: 15px;
+    padding: 10px 45px;
+    margin: 5px 15px ;
+}
+
+.book-card2 {
+    box-shadow: 0px 5px 15px #00000029;
+    border-radius: 15px;
+    padding: 5px 20px !important;
+    margin: 5px 8px ;
+    width: 100%;
+}
+
+.book-card2:hover{
+    background-color: #c9c7c5!important;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    cursor: pointer;
+    outline: 0.1pt solid rgb(75, 74, 74);
+    z-index: 1;
+}
+
+
+.city-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+
+
+.width {
+    width: 100% !important;  
+}
+
+
+.text_div{
+    margin-top: 17% !important;
+    padding-left: 5%;
+}
+
+.text_div span{
+    color: #e9822d;
+}
+
+
+
+
+.swap-image {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 1;
+    background: transparent;
+    text-shadow: 0px 3px 6px #00000029;
+}
+
+.airport {
+    position: relative;
+    transform: translate(10px, 40px);
+    transition: transform 5s linear;
+}
+
+.city {
+    position: relative;
+    transform: translate(10px, 40px);
+    transition: transform 5s linear;
+}
+
+.green-dot {
+    width: 10px;
+    height: 10px;
+    background: #2DBB54;
+    border-radius: 7px;
+}
+
+.red-dot {
+    width: 10px;
+    height: 10px;
+    background: #D42828;
+    border-radius: 7px;
+}
+
+.dotted-line {
+
+    border-left: 3px #c0c0c4 dotted;
+    height: 5rem;
+    width: 2px;
+    left: 3px;
+    position: relative;
+}
+
+.Flight{
+    width: 45px;
+    height: 45px;
+    opacity: 1;
+    position: absolute;
+    left: -42px;
+    top: -18px;
+}
+
+.swap {
+    transform: translate(0px, 88px);
+    transition: transform 0.3s linear;
+}
+
+.swapCity {
+    transform: translate(0px, -100px);
+    transition: transform 0.3s linear;
+}
+
+.reset {
+    transform: translate(0px, 0px);
+    transition: transform 0.3s linear;
+}
+
+.booking-btn {
+    padding: 10px 70px !important;
+    background-color: #2F3293 !important;
+    border-radius: 20px !important;
+    opacity: 1;
+    margin: 11px 8px 0px 0px !important;
+    border: none;
+    outline: none !important;
+}
+
+/* .other-btn{
+    background-color: #2F3293;
+    border-radius: 10px;
+    padding: px;
+    border: none;
+    opacity: 1;
+    color: white;
+}
+
+.other-btn .active {
+    background-color: dodgerblue;
+    color: white;
+  } */
+
+/* .button-box{
+    width: "100px";
+    margin: 35px auto;
+    position: relative;
+    border-radius: "30px";
+    background:#fff;
+} */
+
+.toggle-btn{
+    padding: 5px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0 !important;
+    outline: none !important;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    color: darkgray;
+    border-radius: 10px;
+}
+
+.toggle-btn:focus{
+    background-color: #2F3293;
+    color: #fff;
+    border: 0 !important;
+    outline: none !important;
+}
+
+
+.toggle-active{
+    background-color: #2F3293;
+    color: #fff;
+    border: 0 !important;
+    outline: none !important;
+}
+
+.toggle-reset{
+    background-color: none;
+}
+
+.top-toggle{
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.bottom-toggle{
+    border-radius: 10px;
+    width:100%;
+}
+
+
+
+
+/* #but{
+    left: 0;
+    top: 0;
+    position: obsolute;
+    width: 110px;
+    height: 100%;
+    background:#e67e22;
+    border-radius: 30px;
+    transition: 0.5s;
+} */
+
+/* .btn-swap{
+  position: absolute;
+  right: 0;
+}
+
+.btn2{
+    border: none;
+    outline: none;
+} */
+
+/* 
+  // const rightClick = () => {
+  //   btn.style.left = "110";
+  // }; */
+
+
+
+
+.btn-icon{
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+}
+
+
+
+
+.auto-complete {
+    margin: 1;
+    min-width: 100 !important;
+    max-width: 100% !important;
+}
+
+.swap {
+    transform: translate(0px, 88px);
+    transition: transform 0.3s linear;
+}
+
+.swapCity {
+    transform: translate(0px, -88px);
+    transition: transform 0.3s linear;
+}
+
+.reset {
+    transform: translate(0px, 0px);
+    transition: transform 0.3s linear;
+}
+
+.swap-image {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    opacity: 1;
+    background: transparent;
+}
+
+
+
+
